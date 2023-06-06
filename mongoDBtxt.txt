@@ -1,0 +1,40 @@
+use futebol
+db.createCollection('jogadores')
+db.jogadores.insertOne({
+  _id:1,
+  NOME:'marta',
+  GOLS:500
+})
+db.jogadores.insertOne({
+  _id:2,
+  NOME:'cristiane',
+  GOLS:200
+  
+})
+db.jogadores.insertOne({
+  _id:3,
+  NOME:'formiga',
+  GOLS:150
+  
+})
+db.jogadores.insertOne({
+  _id:4,
+  NOME:'neymar',
+  GOLS:300
+  
+})
+db.jogadores.insertOne({
+  _id:5,
+  NOME:'gabigol',
+  GOLS:250
+  
+})
+db.jogadores.insertOne({
+  _id:6,
+  NOME:'ibra',
+  GOLS:800
+  
+})
+db.jogadores.find()
+db.jogadores.find({GOLS:{$gt:5000}})
+db.jogadores.find({GOLS:{$lt:500}})
