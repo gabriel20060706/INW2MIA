@@ -64,6 +64,6 @@ if(nota <= 5){
     console.log("Oi aluno "+aluno+" ainda não, recuperação")
 } else{
     console.log("Oi "+aluno+" ,perfeito continue assim")
-} if(nota>10){
+} if(nota>=10){
     console.log("Esse numero é invalido")
 }
