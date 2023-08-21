@@ -1,0 +1,128 @@
+.textAndImage1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+    align-items: center;
+}
+.text1{
+    font-size: 60px;
+    font-weight:800;
+    display: flex;
+}
+.LosDogitos{
+    border-radius: 30px;
+}
+.krl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teuxtus{
+    margin-top: 20px;
+}
+.Email{
+    width: 405px;
+    height: 35px;    
+}
+.textAndImage2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+.femea1{
+    margin-top: 18px;
+    border-radius: 100%;
+}
+.comentario{
+    display: flex;
+    flex-direction: row;
+}
+.Up{
+    margin-top: 29px;
+    margin-left: 8px;
+    background-color: #35393B;
+    border-radius: 2%;
+    color: white;
+}
+.aindaNseiONome {
+    background-color: #157146;
+    width: 100%; /* Largura total */
+    max-width: 2400px; /* Largura máxima */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 80px;
+  }
+  .femea2{
+    display: flex;
+    flex-direction: row;
+  }
+  .name{
+    margin-top: 20px;
+    margin-left: 8px;
+    font-weight: 200;
+  }
+.OurHistory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.estrelas input[type=radio] {
+    display: none;
+  }
+  .estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+  }
+  .estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+  }
+.Time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}   
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+textarea {
+    resize: vertical;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
